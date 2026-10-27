@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gato • Estúdio 3D</title>
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <canvas id="scene" aria-label="Cena tridimensional com um gato animado"></canvas>
+    <header><span class="eyebrow">MUNDO COMPARTILHADO - ME</span>
+        <h1>Um gato.<br>Três movimentos.</h1>
+        <p>Nathan Rodrigues da Costa Silva</p>
+    </header>
+    <aside><label for="color">Cor do estúdio</label><input type="color" id="color" value="#adc4c0"><button
+            id="camera">Restaurar câmera ↗</button></aside>
+    <section class="panel" aria-label="Controles de animação">
+        <div class="status"><span class="dot"></span><span id="status" role="status">Carregando o gato…</span></div>
+        <div class="actions"><button disabled data-action="tail"><small>01</small> Mexer o rabo</button><button disabled
+                data-action="groom"><small>02</small> Lamber a pata</button><button disabled
+                data-action="lie"><small>03</small> Deitar</button></div>
+        <div class="bottom"><button disabled id="reset">Voltar à pose inicial</button><label>Velocidade <input
+                    id="speed" type="range" min="0.25" max="2" step="0.25" value="1"><output
+                    id="rate">1×</output></label></div>
+    </section>
+    <footer>Arraste para girar · Role para aproximar <span>Teclas 1, 2, 3 · 0 para voltar</span></footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
