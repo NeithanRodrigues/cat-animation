@@ -5,7 +5,7 @@ Atividade de Processamento de Imagens e Computação Gráfica: uma cena Three.js
 ## Executar no VS Code
 
 1. Instale o Node.js 22.12 ou superior (por exemplo, Node 24).
-2. Extraia o ZIP e abra a pasta `gato-studio` no VS Code.
+2. Clone o repositório.
 3. Abra Terminal → Novo terminal, dentro dessa pasta.
 4. Execute:
 
