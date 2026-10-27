@@ -32,19 +32,19 @@ Não abra o index.html diretamente por duplo clique: o carregamento dos módulos
 ## Organização
 
 ```text
-gato-studio/
-  index.html
-  package.json
-  package-lock.json
-  vite.config.js
-  src/
-    main.js         # Cena, câmera, iluminação, carregamento e interface
-    animations.js   # Poses e animações dos ossos
-    grounding.js    # Contato do modelo deformado com o chão
-    style.css       # Aparência e adaptação para telas menores
-  public/
-    source/Cat.glb
-    textures/       # Três PNGs originais, preservados
+
+index.html
+package.json
+package-lock.json
+vite.config.js
+src/
+  main.js         # Cena, câmera, iluminação, carregamento e interface
+  animations.js   # Poses e animações dos ossos
+  grounding.js    # Contato do modelo deformado com o chão
+  style.css       # Aparência e adaptação para telas menores
+public/
+  source/Cat.glb
+  textures/       # Três PNGs originais, preservados
 ```
 
 O GLB já incorpora as texturas. Os PNGs são mantidos para preservar a organização recebida; não precisam ser carregados à parte.
